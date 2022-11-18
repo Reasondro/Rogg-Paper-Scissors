@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rog Pepper Sisor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <div class = "title">
+    <h1>🕹️Rock Paper Scissors 🕹️</h1>
+    </div>
+    <div class = "choices"> 
+        <button class = "choice" data-choice="rock">🪨</button>
+        <button class = "choice" data-choice="paper">📃</button>
+        <button class = "choice" data-choice="scissors">✂️</button>
+    </div>
+    <div class = "results">
+        <div>
+            You
+            <span class = "result-score" data-player-score >0</span>
+        </div>
+    <div data-final-column >
+        CPU
+            <span class = "result-score" data-cpu-score >0</span>
+        </div>
+    </div>
+    <audio autoplay loop>
+        <source src="arcadeJam.wav" type="audio/mpeg"> <!-- Fitur tambahan background music -->
+    </audio>
+</body>
+</html>

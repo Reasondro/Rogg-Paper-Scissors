@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    font-family: "Rubik Glitch", cursive;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color:rgb(182, 156, 243);
+    font-size: 1rem;
+}
+
+.start{
+    font-family: "Rubik Glitch", cursive;
+    font-size: 3rem;
+    background-color: gray;
+    transition: 70ms;
+    color: red;
+    background-color:rgb(182, 156, 243);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
